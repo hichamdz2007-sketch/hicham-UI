@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hicham| Motion Designer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <style>
+        .gradient-text {
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+       
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans selection:bg-blue-100">
+
+    <nav class="flex justify-between items-center px-8 py-6 max-w-7xl mx-auto sticky top-0 bg-slate-50/80 backdrop-blur-md z-50">
+        <div class="text-2xl font-bold tracking-tight uppercase">hicham<span class="text-blue-600">.</span></div>
+        <ul class="hidden md:flex space-x-8 font-medium text-slate-600">
+            <li><a href="https://erwin-hicham.netlify.app/" target="_blank" class="hover:text-blue-600 transition">Portfolio</a></li>
+            <li><a href="#projects" class="hover:text-blue-600 transition">Services</a></li>
+            <li><a href="#" class="hover:text-blue-600 transition">Contact</a></li>
+        </ul>
+        <a href="https://erwin-hicham.netlify.app/" target="_blank" class="bg-slate-900 text-white px-6 py-2 rounded-full font-medium hover:bg-slate-800 transition shadow-lg">
+            Visit Site
+        </a>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-8 py-20 md:py-32 flex flex-col items-center text-center">
+        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-6" data-aos="fade-up">
+            Motion Graphics <br> <span class="gradient-text">Redefined.</span>
+        </h1>
+        <p class="text-lg text-slate-500 max-w-2xl mb-10 leading-relaxed" data-aos="fade-up" data-aos-delay="100">
+            Professional motion design and high-performance digital experiences. Check out my latest work on Netlify.
+        </p>
+        <div class="flex flex-col md:flex-row gap-4" data-aos="fade-up" data-aos-delay="200">
+            <a href="https://erwin-hicham.netlify.app/" target="_blank" class="bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-700 transition-all transform hover:scale-105 shadow-xl shadow-blue-200 text-center">
+                Explore My Portfolio
+            </a>
+        </div>
+
+        <div id="projects" class="mt-32 w-full max-w-5xl" data-aos="zoom-in" data-aos-delay="300">
+            <h2 class="text-3xl font-bold mb-8">Featured Visuals</h2>
+            <div class="rounded-3xl shadow-2xl overflow-hidden border-8 border-white bg-white">
+                <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=1600" 
+                     alt="Motion Graphics Setup" 
+                     class="w-full h-auto object-cover hover:scale-105 transition duration-700">
+            </div>
+            <p class="mt-6 text-slate-400 italic">"Bringing static designs to life through motion."</p>
+        </div>
+    </main>
+
+    <footer class="py-12 border-t border-slate-200 text-center text-slate-500 text-sm">
+        <p>© 2026 hicham Motion. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+            easing: 'ease-out-quart'
+        });
+    </script>
+</body>
+</html>
